@@ -17,7 +17,7 @@ export const Sidebar = () => {
         <h1 className="text-xl font-semibold text-sidebar-foreground tracking-wide">
           Kseniia Viaznikova
         </h1>
-        <p className="text-sm text-gold-muted mt-1">Dramatic Mezzo-Soprano</p>
+        <p className="text-sm text-red-muted mt-1">Dramatic Mezzo-Soprano</p>
       </div>
 
       <nav className="flex-1 py-8">
@@ -47,7 +47,7 @@ export const Sidebar = () => {
         <p className="text-xs text-sidebar-foreground/60 text-center">
           Official website of Kseniia Viaznikova
         </p>
-        <p className="text-xs text-gold-muted text-center mt-1">
+        <p className="text-xs text-red-muted text-center mt-1">
           created with Lovable
         </p>
       </div>

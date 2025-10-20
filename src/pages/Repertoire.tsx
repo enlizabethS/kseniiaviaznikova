@@ -39,16 +39,16 @@ const Repertoire = () => {
   return (
     <PageTransition>
       <div className="min-h-screen py-20 px-8 md:px-16 max-w-6xl mx-auto">
-        <h1 className="text-5xl font-bold mb-8 text-gold">Repertoire</h1>
-        <div className="h-1 w-24 bg-gold mb-12" />
+        <h1 className="text-5xl font-bold mb-8 text-red">Repertoire</h1>
+        <div className="h-1 w-24 bg-red mb-12" />
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {repertoireData.map((item, index) => (
             <div 
               key={index}
-              className="border border-border p-6 rounded-lg hover:border-gold transition-smooth"
+              className="border border-border p-6 rounded-lg hover:border-red transition-smooth"
             >
-              <h2 className="text-2xl font-semibold mb-4 text-gold-muted">
+              <h2 className="text-2xl font-semibold mb-4 text-red-muted">
                 {item.composer}
               </h2>
               <ul className="space-y-2">

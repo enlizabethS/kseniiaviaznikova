@@ -4,8 +4,8 @@ const Biography = () => {
   return (
     <PageTransition>
       <div className="min-h-screen py-20 px-8 md:px-16 max-w-4xl mx-auto">
-        <h1 className="text-5xl font-bold mb-8 text-gold">Biography</h1>
-        <div className="h-1 w-24 bg-gold mb-12" />
+        <h1 className="text-5xl font-bold mb-8 text-red">Biography</h1>
+        <div className="h-1 w-24 bg-red mb-12" />
         
         <div className="space-y-6 text-lg leading-relaxed">
           <p>

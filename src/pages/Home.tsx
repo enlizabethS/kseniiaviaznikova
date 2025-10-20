@@ -1,5 +1,5 @@
 import { PageTransition } from "@/components/PageTransition";
-import portraitImage from "@/assets/portrait.jpg";
+import portraitImage from "@/assets/portrait-main.jpg";
 
 const Home = () => {
   return (
@@ -16,11 +16,11 @@ const Home = () => {
           <h1 className="text-6xl md:text-7xl font-bold mb-4 tracking-wide">
             Kseniia Viaznikova
           </h1>
-          <div className="h-px w-32 bg-gold mx-auto mb-6" />
+          <div className="h-px w-32 bg-red mx-auto mb-6" />
           <h2 className="text-2xl md:text-3xl font-light mb-8 tracking-wider">
             Dramatic Mezzo-Soprano
           </h2>
-          <p className="text-lg md:text-xl italic text-gold-muted max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl italic text-red-muted max-w-2xl mx-auto">
             Emotion, depth, and power — the voice that moves worlds.
           </p>
         </div>

@@ -6,32 +6,32 @@ const Contact = () => {
     <PageTransition>
       <div className="min-h-screen flex items-center justify-center px-8">
         <div className="text-center max-w-2xl">
-          <h1 className="text-5xl font-bold mb-8 text-gold">Contact</h1>
-          <div className="h-1 w-24 bg-gold mb-12 mx-auto" />
+          <h1 className="text-5xl font-bold mb-8 text-red">Contact</h1>
+          <div className="h-1 w-24 bg-red mb-12 mx-auto" />
           
           <div className="space-y-8">
             <div className="flex items-center justify-center gap-4 text-lg">
-              <Mail className="w-6 h-6 text-gold" />
+              <Mail className="w-6 h-6 text-red" />
               <a 
                 href="mailto:vyaznikova.ks@mail.ru"
-                className="hover:text-gold transition-smooth"
+                className="hover:text-red transition-smooth"
               >
                 vyaznikova.ks@mail.ru
               </a>
             </div>
             
             <div className="flex items-center justify-center gap-4 text-lg">
-              <Phone className="w-6 h-6 text-gold" />
+              <Phone className="w-6 h-6 text-red" />
               <a 
                 href="tel:+79104581106"
-                className="hover:text-gold transition-smooth"
+                className="hover:text-red transition-smooth"
               >
                 +7 910 458 1106
               </a>
             </div>
             
             <div className="flex items-center justify-center gap-4 text-lg">
-              <MapPin className="w-6 h-6 text-gold" />
+              <MapPin className="w-6 h-6 text-red" />
               <span>Moscow, Russia</span>
             </div>
           </div>

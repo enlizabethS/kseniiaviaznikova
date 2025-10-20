@@ -49,20 +49,20 @@ const Performances = () => {
   return (
     <PageTransition>
       <div className="min-h-screen py-20 px-8 md:px-16 max-w-6xl mx-auto">
-        <h1 className="text-5xl font-bold mb-8 text-gold">Performances</h1>
-        <div className="h-1 w-24 bg-gold mb-12" />
+        <h1 className="text-5xl font-bold mb-8 text-red">Performances</h1>
+        <div className="h-1 w-24 bg-red mb-12" />
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {performances.map((performance, index) => (
             <div 
               key={index}
-              className="border border-border p-6 rounded-lg hover:border-gold transition-smooth hover:shadow-lg"
+              className="border border-border p-6 rounded-lg hover:border-red transition-smooth hover:shadow-lg"
             >
-              <div className="text-sm text-gold-muted mb-2">{performance.year}</div>
+              <div className="text-sm text-red-muted mb-2">{performance.year}</div>
               <h2 className="text-2xl font-semibold mb-2">
                 {performance.title}
               </h2>
-              <p className="text-lg text-gold mb-2">{performance.role}</p>
+              <p className="text-lg text-red mb-2">{performance.role}</p>
               <p className="text-muted-foreground mb-4">{performance.venue}</p>
               <p className="text-sm leading-relaxed">{performance.description}</p>
             </div>

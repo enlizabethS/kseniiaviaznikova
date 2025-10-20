@@ -42,10 +42,10 @@ export default {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
         },
-        gold: {
-          DEFAULT: "hsl(var(--gold))",
-          muted: "hsl(var(--gold-muted))",
-          dark: "hsl(var(--gold-dark))",
+        red: {
+          DEFAULT: "hsl(var(--red))",
+          muted: "hsl(var(--red-muted))",
+          dark: "hsl(var(--red-dark))",
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",

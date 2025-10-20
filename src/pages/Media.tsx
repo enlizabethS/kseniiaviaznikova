@@ -4,8 +4,8 @@ const Media = () => {
   return (
     <PageTransition>
       <div className="min-h-screen py-20 px-8 md:px-16 max-w-6xl mx-auto">
-        <h1 className="text-5xl font-bold mb-8 text-gold">Media</h1>
-        <div className="h-1 w-24 bg-gold mb-12" />
+        <h1 className="text-5xl font-bold mb-8 text-red">Media</h1>
+        <div className="h-1 w-24 bg-red mb-12" />
         
         <div className="space-y-12">
           <section>
@@ -26,7 +26,7 @@ const Media = () => {
               {[1, 2, 3, 4, 5, 6].map((i) => (
                 <div 
                   key={i}
-                  className="aspect-square bg-secondary rounded-lg flex items-center justify-center border border-border hover:border-gold transition-smooth"
+                  className="aspect-square bg-secondary rounded-lg flex items-center justify-center border border-border hover:border-red transition-smooth"
                 >
                   <p className="text-muted-foreground">Photo {i}</p>
                 </div>
@@ -40,7 +40,7 @@ const Media = () => {
               {["Il Trovatore - Stride la vampa", "Carmen - Habanera", "War and Peace - Act II"].map((title, i) => (
                 <div 
                   key={i}
-                  className="p-4 border border-border rounded-lg hover:border-gold transition-smooth"
+                  className="p-4 border border-border rounded-lg hover:border-red transition-smooth"
                 >
                   <p className="font-semibold">{title}</p>
                   <p className="text-sm text-muted-foreground mt-1">Audio player placeholder</p>
