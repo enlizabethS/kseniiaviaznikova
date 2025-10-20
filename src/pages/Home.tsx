@@ -22,14 +22,12 @@ const Home = () => {
             </div>
 
             {/* Right side - Photo */}
-            <div className="flex justify-center lg:justify-end">
-              <div className="relative w-full max-w-lg">
-                <img 
-                  src={portraitImage} 
-                  alt="Kseniia Viaznikova"
-                  className="w-full h-auto rounded-lg shadow-2xl"
-                />
-              </div>
+            <div className="flex justify-end">
+              <img 
+                src={portraitImage} 
+                alt="Kseniia Viaznikova"
+                className="w-full h-screen object-cover object-center"
+              />
             </div>
           </div>
         </div>
